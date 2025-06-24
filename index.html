@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechFix | IT Solutions</title>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="/images/my_logo.png" alt="Ania TechFix Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="booking.html">Book a Service</a></li>
+                <li><a href="chat.html">Live Chat</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h2>Your Local Trusted IT Solution Provider</h2>
+        <h3> Expert care, anytime.</h3>
+        <p>IT support and services, Cybersecurity solutions, business technology services, CCTV Installation& configuration.</p>
+        <a href="#services" class="btn">Explore Services</a>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Hardware & Software Repairs</li>
+            <li>Students Management system</li>
+            <li>Asset Management System</li>
+            <li>Data recovery </li>
+            <li>Cybersecurity & Data Protection</li>
+        </ul>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>At Ania TechFix, we provide exceptional IT solutions tailored for businesses/ organizations, schools and individuals </p>
+    </section>
+
+    <section id="booking">
+        <h2>Book a Service</h2>
+        <form id="bookingForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+
+            <label for="service">Select Service:</label>
+            <select id="service">
+                <option>Hardware Repair</option>
+                <option>Software Installation</option>
+                <option>Network Setup</option>
+            </select>
+
+            <button type="submit">Book Now</button>
+        </form>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: contact@aniatechfix.com</p>
+        <p>Phone: +675 70093434 </p>
+    </section>
+
+    <section id="chat">
+        <h2>Live Chat</h2>
+        <div id="chatbox">
+            <p id="chatMessages"></p>
+            <input type="text" id="chatInput" placeholder="Type your message...">
+            <button onclick="sendMessage()">Send</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Ania TechFix. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
